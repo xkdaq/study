@@ -8,8 +8,7 @@
 
 3.[android studio3.0中gradle配置多渠道打包](https://github.com/xkdaq/study/blob/master/gradle/xk_gradle.md)
 
-
-
+4.[快应用,了解一下?](https://github.com/xkdaq/study/blob/master/quickapp/xk_quickapp.md)
 
 
 
