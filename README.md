@@ -10,7 +10,7 @@
 
 4.[快应用,了解一下?](https://github.com/xkdaq/study/blob/master/quickapp/xk_quickapp.md)
 
-
+5.[Android数据库GreenDao配置](https://github.com/xkdaq/study/blob/master/greendao/xk_greendao.md)
 
 
 
