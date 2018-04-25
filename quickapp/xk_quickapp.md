@@ -16,7 +16,7 @@ https://nodejs.org/en/blog/release/v7.0.0/
 
 在使用hap -V检查安装版本  
 
-	hap -V  
+	hap -V   
 
 ![](https://raw.githubusercontent.com/xkdaq/study/master/img/quickapp/quickapp_img_2.png)  
 
