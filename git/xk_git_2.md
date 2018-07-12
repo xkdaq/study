@@ -4,7 +4,7 @@
 
 - 1.修改命令   
 git remote set-url origin [url]   
-例如：it remote set-url origin https://git.coding.net/xkdaq/xiaoyuan.git
+例如：git remote set-url origin https://git.coding.net/xkdaq/xiaoyuan.git
 
 - 2.先删后加   
 git remote rm origin   
