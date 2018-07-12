@@ -1,39 +1,16 @@
-# android studio与github仓库项目关联
-1.检查studio配置git的路径
+# android studio更改关联远程仓库地址的方法
 
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_1.png)
+方法有三种：
 
-2.配置github账号
+- 1.修改命令 
+git remote set-url origin [url] 
+例如：Git remote set-url origin https://git.coding.net/xkdaq/xiaoyuan.git
 
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_2.png)
+- 2.先删后加 
+git remote rm origin 
+git remote add origin [url]
 
-3.创建本地仓库
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_3.png)
-
-4.将所有代码add到本地仓库
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_4.png)
-
-5.将本地仓库的代码提交到远程仓库
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_5.png)
-
-6.commit and push
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_6.png)
-
-7.填写远程仓库地址
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_7.png)
-
-
-8.push
-
-![](https://raw.githubusercontent.com/xkdaq/study/master/img/git/img_git_8.png)
-
-
-
+- 3.直接修改config文件
 
 
 
