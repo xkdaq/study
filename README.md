@@ -32,7 +32,31 @@
 - android 中使用Lambda表达式  
      http://blog.csdn.net/sbsujjbcy/article/details/46956611  
      我发现在新的版本中可以不用加上apply plugin: 'me.tatarka.retrolambda'这个了.
+     
+### 4.快应用
+- Error: Cannot find module 'D:\vstudio\NodeJs\wanandroid\node_modules\hap-tools\webpack.config.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at module.exports (D:\vstudio\NodeJs\wanandroid\node_modules\webpack\bin\convert-argv.js:80:13)
+    at Object.<anonymous> (D:\vstudio\NodeJs\wanandroid\node_modules\webpack\bin\webpack.js:39:40)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+     
+D:\vstudio\NodeJs\wanandroid>hap update --force
+强制升级工程( 0.0.26 ----> 0.0.36 )(可能会出现兼容性问题)
+###App Toolkit### 更新的package.json的备份文件保存为: D:\vstudio\NodeJs\wanandroid\package.old.20180926_161903.json
+升级 签名文件
+file: D:\vstudio\NodeJs\wanandroid\sign\debug\certificate.pem copied.
+file: D:\vstudio\NodeJs\wanandroid\sign\debug\private.pem copied.
+升级完毕, 请运行npm install更新依赖包
 
+D:\vstudio\NodeJs\wanandroid>npm install
+D:\vstudio\NodeJs\wanandroid>npm run build
+D:\vstudio\NodeJs\wanandroid>npm run server
 
 
 
