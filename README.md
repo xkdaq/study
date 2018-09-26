@@ -46,17 +46,17 @@
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
      
-D:\vstudio\NodeJs\wanandroid>hap update --force
-强制升级工程( 0.0.26 ----> 0.0.36 )(可能会出现兼容性问题)
+D:\vstudio\NodeJs\wanandroid>hap update --force  
+强制升级工程( 0.0.26 ----> 0.0.36 )(可能会出现兼容性问题)  
 ###App Toolkit### 更新的package.json的备份文件保存为: D:\vstudio\NodeJs\wanandroid\package.old.20180926_161903.json
-升级 签名文件
-file: D:\vstudio\NodeJs\wanandroid\sign\debug\certificate.pem copied.
-file: D:\vstudio\NodeJs\wanandroid\sign\debug\private.pem copied.
-升级完毕, 请运行npm install更新依赖包
+升级 签名文件  
+file: D:\vstudio\NodeJs\wanandroid\sign\debug\certificate.pem copied.  
+file: D:\vstudio\NodeJs\wanandroid\sign\debug\private.pem copied.  
+升级完毕, 请运行npm install更新依赖包  
 
-D:\vstudio\NodeJs\wanandroid>npm install
-D:\vstudio\NodeJs\wanandroid>npm run build
-D:\vstudio\NodeJs\wanandroid>npm run server
+D:\vstudio\NodeJs\wanandroid>npm install  
+D:\vstudio\NodeJs\wanandroid>npm run build  
+D:\vstudio\NodeJs\wanandroid>npm run server  
 
 
 
