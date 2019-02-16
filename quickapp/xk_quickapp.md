@@ -1,14 +1,14 @@
-#helloworld-快应用
+# helloworld-快应用
 
 官网：[https://www.quickapp.cn/ ](https://www.quickapp.cn/ )  
 开发文档：[https://doc.quickapp.cn/](https://doc.quickapp.cn/)
 
-###1.环境搭建   
-####1.1安装NodeJS  
+### 1.环境搭建   
+#### 1.1安装NodeJS  
 官网要求是安装6.0以上版本的NodeJS,不要使用8.0.*版本的,这里我安装的是7.0.0版本的
 https://nodejs.org/en/blog/release/v7.0.0/
 
-####1.2安装hap-toolkit  
+#### 1.2安装hap-toolkit  
 
 	npm install -g hap-toolkit  
 
@@ -20,7 +20,7 @@ https://nodejs.org/en/blog/release/v7.0.0/
 
 ![](https://raw.githubusercontent.com/xkdaq/study/master/img/quickapp/quickapp_img_2.png)  
 
-###2.创建helloworld
+### 2.创建helloworld
 选择一个文件夹的路径,然后再文件夹下创建项目  
 
 	hap init <ProjectName>  
@@ -49,15 +49,15 @@ https://nodejs.org/en/blog/release/v7.0.0/
 
 到这一步,helloworld的rpk包已经生成,在目录的dis下
 
-###3.安装生成的包
-####3.1首先安装快应用的调试器apk  
+### 3.安装生成的包
+#### 3.1首先安装快应用的调试器apk  
 [https://statres.quickapp.cn/quickapp/quickapp/201803/file/201803200129552999556.apk](https://statres.quickapp.cn/quickapp/quickapp/201803/file/201803200129552999556.apk "快应用调试器")  
 
 第一次安装之后是这个样子的,按钮都是灰色的,需要安装另外一个快应用的预览apk  
 
 <img src="https://raw.githubusercontent.com/xkdaq/study/master/img/quickapp/quickapp_img_9.png" width="432" height="768" /> 
 
-####3.2安装快应用的预览apk
+#### 3.2安装快应用的预览apk
 
 [https://statres.quickapp.cn/quickapp/quickapp/201803/file/201803200130021102030.apk](https://statres.quickapp.cn/quickapp/quickapp/201803/file/201803200130021102030.apk "快应用预览")  
 
@@ -65,7 +65,7 @@ https://nodejs.org/en/blog/release/v7.0.0/
 
 <img src="https://raw.githubusercontent.com/xkdaq/study/master/img/quickapp/quickapp_img_10.png" width="432" height="768" /> 
 
-####3.3预览helloworld
+#### 3.3预览helloworld
 有两种方法,第一种是直接通过http请求,第二种是本地安装,这里我是用的http请求,具体可以参考官网文档.  
 进入根目录下运行如下命令,启动本地服务器(默认端口是12306)
 
@@ -80,7 +80,7 @@ https://nodejs.org/en/blog/release/v7.0.0/
 <img src="https://raw.githubusercontent.com/xkdaq/study/master/img/quickapp/quickapp_img_11.png" width="432" height="768" />
 
 
-###4.开发快应用  
+### 4.开发快应用  
 
 前两天看官网都没有任何介绍,昨天就发现官网开发文档更新的是如此快,立马就开发者提供了插件,因为之前开发前端用的webstorm和vscode都不支持开应用的.ux文件的编写,也不算不支持,就是没有提示.然后就出来了hap插件.  
 
